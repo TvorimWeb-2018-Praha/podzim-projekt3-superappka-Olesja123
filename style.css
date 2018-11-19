@@ -31,3 +31,109 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+.navigace ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navigace li {
+    list-style-type: none;
+}
+
+.navigace a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: block;
+    padding: 10px 30px;
+}
+
+.vybrana {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.telo {
+    height: 400px;
+    background-image: url("images/pozadi.jpg");
+    margin: 0;
+    position: relative;
+}
+
+.telefon {
+    position: absolute;
+    left: 605px;
+    top: 50px;
+    width: 355px;
+    height: 350px;
+}
+
+.appka {
+    padding: 30px 0px 0px 40px;
+}
+
+.appka h1 {
+    color: white;
+    font-size: 75px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.appka p {
+    color: rgb(240, 236, 236);
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-weight: 300;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    line-height: 1.2;
+}
+
+.odkaz {
+    color: white;
+    border: 1px solid rgb(243, 241, 241);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.aktivni:active {
+    background-color:#48418e;
+}
+
+.aktivni:hover {
+    background-color:#48418e;
+}
+
+.obsah {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+h3 {
+    color: #48418e;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+
+.paticka {
+    background-color: #48418e;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding: 1px 0px;
+}
